@@ -1,5 +1,8 @@
 import sys
 argc = len(sys.argv)
+if argc == 1:
+    print("Error number of argument is incorect")
+    exit()
 i = 0
 sep = " "
 test = ""
